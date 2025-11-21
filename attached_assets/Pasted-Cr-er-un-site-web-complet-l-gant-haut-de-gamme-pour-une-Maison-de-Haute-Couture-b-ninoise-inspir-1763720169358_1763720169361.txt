@@ -1,0 +1,289 @@
+Créer un site web complet, élégant, haut de gamme, pour une Maison de Haute Couture béninoise inspirée du modèle d’Edi Sessi.
+Le site doit refléter : luxe, élégance, modernité, héritage culturel, savoir-faire artisanal.
+
+🖤 PALETTE / STYLE / GUIDELINES
+
+Palette : noir – blanc – gris (inspiration Chanel / Dior, luxe minimaliste)
+
+Typo : élégante, haute-couture, serif + sans-serif moderne
+
+Images = grands visuels, tailles généreuses (fullscreen hero)
+
+Effets :
+
+animations douces (fade-in, parallax, slow reveal)
+
+hover inversé (fond noir / texte blanc)
+
+transitions 0.4s
+
+Icônes : Boxicons
+
+Layout : très aéré, ambiance premium, sections épurées
+
+Responsive smartphone & tablette
+
+Structure multipage
+
+Menu : sticky & transparent au début
+
+🟦 PAGES À CRÉER
+1️⃣ ACCUEIL (index.html)
+
+Hero section :
+
+Grande photo d’une pièce signature (ex : Kanvoh, TùTù, robe couture)
+
+Titre impactant en majuscules
+
+Slogan : “Luxe, Héritage & Modernité”
+
+Deux boutons :
+
+“DÉCOUVRIR LES COLLECTIONS”
+
+“PRENDRE RENDEZ-VOUS”
+
+Sections :
+
+La Maison : brève description + photo atelier
+
+Nos matières d’exception : Kanvoh, Tweed Kanvoh, TùTù (cartes premium)
+
+Collections en lumière : mini galerie
+
+Points forts : Made in Bénin, savoir-faire artisanal, pièces uniques
+
+CTA décoratif
+
+2️⃣ À PROPOS (about.html)
+Contenu à intégrer :
+✦ Histoire
+
+Fondatrice : Edith Bidossessi Dassounon
+
+“Presque 30 ans d’expertise couture”
+
+Storytelling premium
+
+✦ Vision & Mission
+
+Luxe local
+
+Valorisation du Made in Bénin
+
+Fusion héritage & modernité
+
+✦ Atelier
+
+Photos artisans
+
+Techniques utilisées
+
+Tissus locaux travaillés
+
+✦ Boutiques / Showrooms
+
+Camp Guézo : showroom principal
+
+Cadjéhoun : prêt-à-porter
+
+✦ FAQ (section interne — accordéon animé)
+
+Questions :
+
+Qu’est-ce que la Maison ?
+
+Qu’est-ce qui rend le Kanvoh unique ?
+
+Comment prendre rendez-vous pour un sur-mesure ?
+
+Réalisez-vous des créations masculines ?
+
+Qu’est-ce que le tissu TùTù ?
+
+✦ BLOG (section interne)
+
+3 articles :
+
+L’histoire du Kanvoh
+
+Comment se déroule un rendez-vous sur-mesure
+
+Artisanat béninois & luxe moderne
+
+✦ STATISTIQUES (section animée — compteurs)
+
+30+ ans d'expérience
+
+350+ clients habillés
+
+120+ collaborations
+
+40+ artisans partenaires
+
+Animation compteur lorsque visible.
+
+3️⃣ COLLECTIONS (collections.html)
+
+Grille élégante de collections
+
+Sous-pages pour chacune :
+
+GO!
+
+KADARA MI!
+
+HUNHLE
+
+SWEET COTTON
+
+ROI D’ÉTÉ (homme)
+
+TÙTÙ
+
+etc.
+
+Chaque sous-page =
+
+Photos haute qualité
+
+Description
+
+Matières
+
+Pièces phares
+
+4️⃣ SUR-MESURE / COUTURE (surmesure.html)
+
+Processus :
+
+Première consultation
+
+Prise de mesures
+
+Sélection des matières
+
+Prototype
+
+Essayages
+
+Livraison
+
+Formulaire prise de rendez-vous
+
+Galerie sur-mesure
+
+5️⃣ BOUTIQUE / PRÊT-À-PORTER (boutique.html)
+
+Catalogue produits
+
+Filtres : femme / homme
+
+Prix indicatifs (optionnel)
+
+Bouton “Appeler pour commander”
+
+Icône bx-cart stylée
+
+6️⃣ GALERIE / LOOKBOOK (galerie.html)
+
+Photos haute résolution
+
+Défilés, shootings, studio
+
+Vidéos intégrées
+
+Effet lightbox
+
+7️⃣ ACTUALITÉS / PRESSE (presse.html)
+
+Articles, interviews
+
+Participation à la Journée Mondiale du Coton
+
+Photos presse
+
+Logos partenaires
+
+8️⃣ CONTACT (contact.html)
+
+Showroom Camp Guézo (adresse + map)
+
+Boutique Cadjéhoun
+
+Formulaire contact
+
+Numéro WhatsApp
+
+Réseaux sociaux
+
+Heures d'ouverture
+
+🟦 FONCTIONNALITÉS TECHNIQUES À INCLURE
+
+Menu sticky + effet scroll
+
+Titre en majuscules
+
+Animations GSAP-like (fade, slide)
+
+Accordéon FAQ en JS
+
+Compteur animé JS
+
+Lightbox galerie
+
+Menu mobile responsive
+
+Footer premium :
+
+Logo
+
+Liens rapides
+
+Réseaux sociaux
+
+Copyright
+
+🟦 SEO & CONTENU
+
+Optimiser pour “mode béninoise”, “couture luxe bénin”, “tissu kanvoh”
+
+Balises meta + OpenGraph
+
+Titres H1-H2 cohérents
+
+Texte storytelling premium
+
+🟦 INTEGRATION INSTAGRAM
+
+Ajouter un widget galerie Instagram (ou 6 dernières photos) dans la page Accueil ou Galerie.
+
+🟦 FICHIERS À PRODUIRE
+
+index.html
+
+about.html
+
+collections.html + sous-pages
+
+surmesure.html
+
+boutique.html
+
+galerie.html
+
+presse.html
+
+contact.html
+
+style.css
+
+script.js
+
+assets (images placeholder)
+
+🟦 TON RÔLE
+
+Tu dois générer tout le site complet, structure, HTML, CSS, JS, en suivant fidèlement les instructions ci-dessus.
