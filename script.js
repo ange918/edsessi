@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         fadeInOnScroll();
     });
     
-    if (menuToggle) {
+    if (menuToggle && navLinks) {
         menuToggle.addEventListener('click', function() {
             navLinks.classList.toggle('active');
             
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const navItems = document.querySelectorAll('.nav-links a');
         navItems.forEach(item => {
             item.addEventListener('click', function() {
-                if (window.innerWidth <= 768) {
+                if (window.innerWidth <= 768 && navLinks) {
                     navLinks.classList.remove('active');
                     const spans = menuToggle.querySelectorAll('span');
                     spans[0].style.transform = 'none';
