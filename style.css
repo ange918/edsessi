@@ -143,6 +143,7 @@ nav {
     width: auto;
     filter: brightness(0) invert(1);
     transition: var(--transition);
+    border-radius: 12px;
 }
 
 header.scrolled .logo img {

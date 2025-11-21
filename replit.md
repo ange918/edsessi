@@ -55,5 +55,6 @@ Les trois collections emblématiques d'EDI SESSI (ES) :
 - **TùTù** : Tissu volumineux et structuré
 
 ## Dernières modifications
+- 21 novembre 2025 : Ajout de coins arrondis au logo (border-radius: 12px)
 - 21 novembre 2025 : Remplacement du texte "EDI SESSI (ES)" par un logo image dans le header, réduction de la taille du header (padding réduit de 1.5rem à 0.8rem), réduction de la taille de la police de navigation (0.85rem), logo avec filtre blanc sur fond transparent et affichage normal lors du scroll
 - 21 novembre 2025 : Mise à jour du nom de marque à EDI SESSI (ES), mise en avant des 3 collections phare (TuTu, Kanvoh, Tweed Kanvoh), enrichissement du contenu de la page À propos avec texte détaillé sur l'histoire, la vision et la mission
