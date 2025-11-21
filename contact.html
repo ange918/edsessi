@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez notre Maison de Haute Couture - Showrooms à Camp Guézo et Cadjéhoun, Cotonou.">
+    <title>Contact - Maison de Haute Couture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="scrolled">
+        <nav>
+            <a href="index.html" class="logo">MAISON</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="surmesure.html">Sur-Mesure</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="presse.html">Presse</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1558769132-92e717d613dc?w=1920'); height: 60vh;">
+        <div class="hero-content">
+            <h1>CONTACTEZ-NOUS</h1>
+            <p>NOUS SOMMES À VOTRE ÉCOUTE</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="contact-section">
+                <div class="contact-info fade-in">
+                    <h3>NOS SHOWROOMS</h3>
+                    
+                    <div class="info-item">
+                        <i class='bx bxs-store'></i>
+                        <div>
+                            <h4>Showroom Camp Guézo</h4>
+                            <p>Camp Guézo, Cotonou, Bénin</p>
+                            <p>Lundi - Samedi : 9h00 - 18h00</p>
+                            <p>Sur-mesure et collections exclusives</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class='bx bxs-shopping-bag'></i>
+                        <div>
+                            <h4>Boutique Cadjéhoun</h4>
+                            <p>Cadjéhoun, Cotonou, Bénin</p>
+                            <p>Lundi - Samedi : 10h00 - 19h00</p>
+                            <p>Prêt-à-porter et pièces signature</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class='bx bxs-phone'></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+22900000000">+229 00 00 00 00</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class='bx bxl-whatsapp'></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/22900000000">+229 00 00 00 00</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class='bx bxs-envelope'></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:contact@maison.bj">contact@maison.bj</a></p>
+                        </div>
+                    </div>
+                    
+                    <h4 style="margin-top: 2rem; margin-bottom: 1rem;">SUIVEZ-NOUS</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" aria-label="Pinterest"><i class='bx bxl-pinterest'></i></a>
+                    </div>
+                </div>
+                
+                <div class="formulaire fade-in" style="margin: 0; background: var(--gris-tres-clair);">
+                    <h3 style="margin-bottom: 2rem; font-size: 1.5rem;">ENVOYEZ-NOUS UN MESSAGE</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nom">Nom Complet *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="sujet">Sujet *</label>
+                            <select id="sujet" name="sujet" required>
+                                <option value="">Sélectionnez...</option>
+                                <option value="surmesure">Rendez-vous sur-mesure</option>
+                                <option value="commande">Commande prêt-à-porter</option>
+                                <option value="information">Demande d'information</option>
+                                <option value="presse">Contact presse</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required placeholder="Votre message..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn" style="width: 100%;">ENVOYER</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" style="padding: 0;">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6894926830445!2d2.428371!3d6.366666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjInMDAuMCJOIDLCsDI1JzQyLjEiRQ!5e0!3m2!1sfr!2sbj!4v1234567890"
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+    
+    <section class="section" style="background: var(--noir); color: var(--blanc);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 style="color: var(--blanc);">HEURES D'OUVERTURE</h2>
+            </div>
+            
+            <div class="points-grid" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="point-item fade-in">
+                    <h3>SHOWROOM CAMP GUÉZO</h3>
+                    <p>Lundi - Vendredi : 9h00 - 18h00</p>
+                    <p>Samedi : 10h00 - 17h00</p>
+                    <p>Dimanche : Sur rendez-vous uniquement</p>
+                </div>
+                
+                <div class="point-item fade-in">
+                    <h3>BOUTIQUE CADJÉHOUN</h3>
+                    <p>Lundi - Vendredi : 10h00 - 19h00</p>
+                    <p>Samedi : 10h00 - 18h00</p>
+                    <p>Dimanche : Fermé</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>MAISON</h3>
+                    <p>Maison de Haute Couture béninoise dédiée à l'excellence, l'innovation et la valorisation du patrimoine textile africain.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" aria-label="Pinterest"><i class='bx bxl-pinterest'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="surmesure.html">Sur-Mesure</a></li>
+                        <li><a href="boutique.html">Boutique</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="presse.html">Presse</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Showrooms</h4>
+                    <ul>
+                        <li>Camp Guézo, Cotonou</li>
+                        <li>Cadjéhoun, Cotonou</li>
+                        <li><a href="tel:+22900000000">+229 00 00 00 00</a></li>
+                        <li><a href="mailto:contact@maison.bj">contact@maison.bj</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maison de Haute Couture. Tous droits réservés. Fondée par Edith Bidossessi Dassounon.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

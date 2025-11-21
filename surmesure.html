@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Service sur-mesure de haute couture. Créez votre pièce unique avec nos experts.">
+    <title>Sur-Mesure - Maison de Haute Couture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="scrolled">
+        <nav>
+            <a href="index.html" class="logo">MAISON</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="surmesure.html">Sur-Mesure</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="presse.html">Presse</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=1920'); height: 60vh;">
+        <div class="hero-content">
+            <h1>SUR-MESURE</h1>
+            <p>CRÉEZ VOTRE PIÈCE UNIQUE</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>NOTRE PROCESSUS SUR-MESURE</h2>
+                <p>Six étapes vers l'excellence</p>
+            </div>
+            
+            <div class="processus-grid">
+                <div class="processus-step fade-in">
+                    <div class="step-number">1</div>
+                    <h3>PREMIÈRE CONSULTATION</h3>
+                    <p>Rencontrez notre équipe pour discuter de vos envies, de votre style et de l'occasion. Nous explorons ensemble les possibilités créatives.</p>
+                </div>
+                
+                <div class="processus-step fade-in">
+                    <div class="step-number">2</div>
+                    <h3>PRISE DE MESURES</h3>
+                    <p>Nos experts prennent vos mesures avec précision pour garantir un ajustement parfait et un confort optimal.</p>
+                </div>
+                
+                <div class="processus-step fade-in">
+                    <div class="step-number">3</div>
+                    <h3>SÉLECTION DES MATIÈRES</h3>
+                    <p>Choisissez parmi notre gamme de tissus d'exception : Kanvoh, TùTù, Tweed Kanvoh et autres matières nobles.</p>
+                </div>
+                
+                <div class="processus-step fade-in">
+                    <div class="step-number">4</div>
+                    <h3>PROTOTYPE</h3>
+                    <p>Nos artisans créent une première version de votre pièce. C'est le moment de visualiser votre création prendre forme.</p>
+                </div>
+                
+                <div class="processus-step fade-in">
+                    <div class="step-number">5</div>
+                    <h3>ESSAYAGES</h3>
+                    <p>Plusieurs séances d'essayage permettent d'affiner chaque détail jusqu'à la perfection absolue.</p>
+                </div>
+                
+                <div class="processus-step fade-in">
+                    <div class="step-number">6</div>
+                    <h3>LIVRAISON</h3>
+                    <p>Recevez votre création finale, emballée avec soin. Une pièce unique qui vous ressemble et vous sublime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" style="background: var(--gris-tres-clair);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>PRENEZ RENDEZ-VOUS</h2>
+                <p>Commencez votre voyage vers l'excellence</p>
+            </div>
+            
+            <div class="formulaire fade-in">
+                <form id="appointmentForm">
+                    <div class="form-group">
+                        <label for="nom">Nom Complet *</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telephone">Téléphone *</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Type de Service *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Sélectionnez...</option>
+                            <option value="robe">Robe sur-mesure</option>
+                            <option value="costume">Costume sur-mesure</option>
+                            <option value="ensemble">Ensemble complet</option>
+                            <option value="traditionnel">Tenue traditionnelle</option>
+                            <option value="autre">Autre création</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="occasion">Occasion</label>
+                        <input type="text" id="occasion" name="occasion" placeholder="Mariage, gala, événement...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget">Budget Estimé</label>
+                        <select id="budget" name="budget">
+                            <option value="">Sélectionnez...</option>
+                            <option value="100-300">100 000 - 300 000 FCFA</option>
+                            <option value="300-500">300 000 - 500 000 FCFA</option>
+                            <option value="500-1000">500 000 - 1 000 000 FCFA</option>
+                            <option value="1000+">1 000 000+ FCFA</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Décrivez votre projet *</label>
+                        <textarea id="message" name="message" required placeholder="Parlez-nous de vos envies, de votre style, des détails qui vous tiennent à cœur..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn" style="width: 100%;">ENVOYER MA DEMANDE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>GALERIE SUR-MESURE</h2>
+                <p>Quelques-unes de nos créations uniques</p>
+            </div>
+            
+            <div class="collections-grid">
+                <div class="collection-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600" alt="Création sur-mesure">
+                </div>
+                
+                <div class="collection-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600" alt="Création sur-mesure">
+                </div>
+                
+                <div class="collection-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600" alt="Création sur-mesure">
+                </div>
+                
+                <div class="collection-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600" alt="Création sur-mesure">
+                </div>
+                
+                <div class="collection-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600" alt="Création sur-mesure">
+                </div>
+                
+                <div class="collection-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1558769132-cb1aea9c6c0b?w=600" alt="Création sur-mesure">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section points-forts">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 style="color: var(--blanc);">POURQUOI CHOISIR LE SUR-MESURE ?</h2>
+            </div>
+            
+            <div class="points-grid">
+                <div class="point-item fade-in">
+                    <i class='bx bxs-user-check'></i>
+                    <h3>AJUSTEMENT PARFAIT</h3>
+                    <p>Une pièce conçue exactement pour vos mesures, garantissant confort et élégance absolue.</p>
+                </div>
+                
+                <div class="point-item fade-in">
+                    <i class='bx bxs-customize'></i>
+                    <h3>CRÉATION UNIQUE</h3>
+                    <p>Votre vision devient réalité. Choisissez chaque détail, chaque finition, chaque élément.</p>
+                </div>
+                
+                <div class="point-item fade-in">
+                    <i class='bx bxs-award'></i>
+                    <h3>QUALITÉ EXCEPTIONNELLE</h3>
+                    <p>Un savoir-faire artisanal d'exception et des matières nobles pour une pièce qui traverse le temps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>MAISON</h3>
+                    <p>Maison de Haute Couture béninoise dédiée à l'excellence, l'innovation et la valorisation du patrimoine textile africain.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" aria-label="Pinterest"><i class='bx bxl-pinterest'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="surmesure.html">Sur-Mesure</a></li>
+                        <li><a href="boutique.html">Boutique</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="presse.html">Presse</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Showrooms</h4>
+                    <ul>
+                        <li>Camp Guézo, Cotonou</li>
+                        <li>Cadjéhoun, Cotonou</li>
+                        <li><a href="tel:+22900000000">+229 00 00 00 00</a></li>
+                        <li><a href="mailto:contact@maison.bj">contact@maison.bj</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maison de Haute Couture. Tous droits réservés. Fondée par Edith Bidossessi Dassounon.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

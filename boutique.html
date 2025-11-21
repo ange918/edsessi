@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez notre boutique prêt-à-porter de haute couture béninoise.">
+    <title>Boutique - Maison de Haute Couture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="scrolled">
+        <nav>
+            <a href="index.html" class="logo">MAISON</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="surmesure.html">Sur-Mesure</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="presse.html">Presse</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1558769132-cb1aea9c6c0b?w=1920'); height: 60vh;">
+        <div class="hero-content">
+            <h1>BOUTIQUE PRÊT-À-PORTER</h1>
+            <p>ÉLÉGANCE IMMÉDIATE</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>NOS CRÉATIONS</h2>
+                <p>Pièces signature prêtes à emporter</p>
+            </div>
+            
+            <div class="filtres fade-in">
+                <button class="filtre-btn active" data-filter="tous">TOUS</button>
+                <button class="filtre-btn" data-filter="femme">FEMME</button>
+                <button class="filtre-btn" data-filter="homme">HOMME</button>
+            </div>
+            
+            <div class="produits-grid">
+                <div class="produit-card fade-in" data-category="femme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600" alt="Robe Kanvoh">
+                        <div class="produit-badge">NOUVEAU</div>
+                    </div>
+                    <div class="produit-content">
+                        <h3>ROBE KANVOH ÉLÉGANCE</h3>
+                        <div class="produit-prix">285 000 FCFA</div>
+                        <p>Robe longue en Kanvoh traditionnel avec finitions brodées main. Édition limitée.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="femme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600" alt="Ensemble TùTù">
+                    </div>
+                    <div class="produit-content">
+                        <h3>ENSEMBLE TÙTÙ PRESTIGE</h3>
+                        <div class="produit-prix">320 000 FCFA</div>
+                        <p>Ensemble deux pièces en TùTù volumineux. Parfait pour les grandes occasions.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="femme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600" alt="Veste Tweed Kanvoh">
+                        <div class="produit-badge">BEST SELLER</div>
+                    </div>
+                    <div class="produit-content">
+                        <h3>VESTE TWEED KANVOH</h3>
+                        <div class="produit-prix">195 000 FCFA</div>
+                        <p>Veste cintrée en Tweed Kanvoh, alliance parfaite du classique et de la tradition.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="homme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600" alt="Costume Homme">
+                        <div class="produit-badge">NOUVEAU</div>
+                    </div>
+                    <div class="produit-content">
+                        <h3>COSTUME ROI D'ÉTÉ</h3>
+                        <div class="produit-prix">350 000 FCFA</div>
+                        <p>Costume trois pièces en tissu premium. Élégance masculine intemporelle.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="femme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600" alt="Robe Soirée">
+                    </div>
+                    <div class="produit-content">
+                        <h3>ROBE DE SOIRÉE HUNHLE</h3>
+                        <div class="produit-prix">425 000 FCFA</div>
+                        <p>Robe de soirée sophistiquée avec détails perlés. Pour les moments exceptionnels.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="femme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=600" alt="Ensemble Sweet Cotton">
+                    </div>
+                    <div class="produit-content">
+                        <h3>ENSEMBLE SWEET COTTON</h3>
+                        <div class="produit-prix">165 000 FCFA</div>
+                        <p>Ensemble confortable en coton doux. Élégance décontractée pour le quotidien.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="homme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=600" alt="Chemise Homme">
+                    </div>
+                    <div class="produit-content">
+                        <h3>CHEMISE RAFFINÉE HOMME</h3>
+                        <div class="produit-prix">85 000 FCFA</div>
+                        <p>Chemise en coton premium avec détails sur-mesure. Confort et élégance.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="femme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1558769132-cb1aea9c6c0b?w=600" alt="Robe Cocktail">
+                        <div class="produit-badge">ÉDITION LIMITÉE</div>
+                    </div>
+                    <div class="produit-content">
+                        <h3>ROBE COCKTAIL KADARA</h3>
+                        <div class="produit-prix">295 000 FCFA</div>
+                        <p>Robe cocktail avec jeu de transparences. Sophistication et féminité.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+                
+                <div class="produit-card fade-in" data-category="homme">
+                    <div class="produit-image">
+                        <img src="https://images.unsplash.com/photo-1593030668690-ded9bc90a67d?w=600" alt="Veste Homme">
+                    </div>
+                    <div class="produit-content">
+                        <h3>VESTE CASUAL CHIC</h3>
+                        <div class="produit-prix">215 000 FCFA</div>
+                        <p>Veste décontractée pour homme moderne. Style et confort au quotidien.</p>
+                        <a href="tel:+22900000000" class="btn-primary btn"><i class='bx bx-phone'></i> APPELER POUR COMMANDER</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" style="background: var(--gris-tres-clair);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>COMMENT COMMANDER</h2>
+                <p>Simple et rapide</p>
+            </div>
+            
+            <div class="processus-grid">
+                <div class="processus-step fade-in">
+                    <div class="step-number">1</div>
+                    <h3>CHOISISSEZ</h3>
+                    <p>Sélectionnez la pièce qui vous plaît dans notre catalogue.</p>
+                </div>
+                
+                <div class="processus-step fade-in">
+                    <div class="step-number">2</div>
+                    <h3>APPELEZ</h3>
+                    <p>Contactez-nous par téléphone ou WhatsApp pour vérifier la disponibilité.</p>
+                </div>
+                
+                <div class="processus-step fade-in">
+                    <div class="step-number">3</div>
+                    <h3>RÉCUPÉREZ</h3>
+                    <p>Venez chercher votre pièce dans notre boutique de Cadjéhoun ou notre showroom de Camp Guézo.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="contact.html" class="btn-primary btn">NOS ADRESSES</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta-section">
+        <div class="container">
+            <div class="fade-in">
+                <h2>PIÈCE INTROUVABLE ?</h2>
+                <p>Créez votre vêtement sur-mesure avec nos experts</p>
+                <a href="surmesure.html" class="btn-primary btn">SERVICE SUR-MESURE</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>MAISON</h3>
+                    <p>Maison de Haute Couture béninoise dédiée à l'excellence, l'innovation et la valorisation du patrimoine textile africain.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" aria-label="Pinterest"><i class='bx bxl-pinterest'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="surmesure.html">Sur-Mesure</a></li>
+                        <li><a href="boutique.html">Boutique</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="presse.html">Presse</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Showrooms</h4>
+                    <ul>
+                        <li>Camp Guézo, Cotonou</li>
+                        <li>Cadjéhoun, Cotonou</li>
+                        <li><a href="tel:+22900000000">+229 00 00 00 00</a></li>
+                        <li><a href="mailto:contact@maison.bj">contact@maison.bj</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maison de Haute Couture. Tous droits réservés. Fondée par Edith Bidossessi Dassounon.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
